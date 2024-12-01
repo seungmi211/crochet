@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Crochet!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Knewave&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+        <nav class="navbar navbar-expand-md bg-white navbar-white fixed-top">
+            <div class="container">
+    
+                <a class="knewave-regular navbar-brand fw-bold" href="index.html">
+                    <img src="images/logo.png" alt="로고" width="20" height="20"> Let's crochet!</a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                    aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="nav-menu">
+                    <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link knewave-regular" href="#basics">Basics</a></li>
+                    <li class="nav-item"><a class="nav-link knewave-regular" href="works.html">Works</a></li>
+                    <li class="nav-item"><a class="nav-link knewave-regular" href="shopIntro.html">Shop introduction</a></li>
+                    <li class="nav-item"><a class="nav-link knewave-regular" href="youtuber.html">Youtubers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container overflow-hidden py-5" id="basics">
+
+            <div class="text-center py-5">
+                <h2 class="knewave-regular">Basics</h2>
+                <p class="lead text-muted">기초 뜨개 기법으로 알려진 사슬뜨기, 짧은뜨기, 한길긴뜨기, 빼뜨기에 대해 알아보아요!</p>
+            </div>
+    
+            <div class="row pb-5 gy-4">
+                <div class="col-sm-6 col-lg">
+                    <div class="card">
+                        <img src="images/blog1.jpg" alt="사슬뜨기" class="card-img-top">
+                        <div class="d-grid gap-2 my-2 mx-3">
+                            <a href="#" class="fs-4 btn btn-dark btn-sm"  data-bs-toggle="modal" data-bs-target="#chainModal">사슬뜨기</a>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="chainModal" tabindex="-1" aria-labelledby="chainModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-dark fs-5 fw-bold" id="chainModalLabel">사슬뜨기</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/basic1.jpeg" alt="사슬뜨기" class="img-fluid">
+                            <p class="text-muted">사슬 뜨기는 코바늘로 만드는 모든 편물의 시작이
+                                되어주는 기법이라고 할 수 있어요. 짧은뜨기, 긴뜨기 등 다양한 뜨개 기법을
+                                사용하여 편물을 쌓아올리기 위해서는 꼭 알고 있어야하는 기법이랍니다. 그림을 보고
+                                천천히 연습해보도록 해요. ☺️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-sm-6 col-lg">
+                    <div class="card">
+                        <img src="images/blog2.jpg" alt="블로그 2" class="card-img-top">
+                        <div class="d-grid gap-2 my-2 mx-3">
+                            <a href="#" class="fs-4 btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#shortModal">짧은뜨기</a>
+                          </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="shortModal" tabindex="-1" aria-labelledby="shortModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-dark fs-5 fw-bold" id="shortModalLabel">짧은뜨기</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/basic2.jpeg" alt="짧은뜨기" class="img-fluid">
+                            <p class="text-muted">짧은 뜨기는 편물을 차곡차곡 쌓아올릴 때 쓰이는 기법 중
+                                가장 간단한 기법이라고 할 수 있어요. 코바늘에 실을 감는 작업이 없기 때문에 
+                                바늘에 걸린 실이 많아지는 걱정을 덜어낼 수 있답니다. 그림을 보고 천천히 연습해보도록 해요. ☺️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+    
+                <div class="col-sm-6 col-lg">
+                    <div class="card">
+                        <img src="images/blog3.jpg" alt="한길긴뜨기" class="card-img-top">
+                        <div class="d-grid gap-2 my-2 mx-3">
+                            <a href="#" class="fs-4 btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#longModal">한길긴뜨기</a>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="longModal" tabindex="-1" aria-labelledby="longModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-dark fs-5 fw-bold" id="longModalLabel">한길긴뜨기</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/basic3.jpg" alt="한길긴뜨기" class="img-fluid">
+                            <p class="text-muted">한길긴뜨기는 편물을 차곡차곡 쌓아올릴 때 쓰이는 또 다른 기법 중 하나라고 할 수 있어요.
+                                 코바늘에 실을 감고 편물에 코를 만드는 작업을 하기 때문에 짧은 뜨기보다 다소 어렵게 느껴질 수 있지만,
+                                한 줄의 높이가 짧은뜨기보다 크기 때문에 편물의 길이를 금방 늘려준다는 장점이 있답니다. 그림을 보고 천천히 연습해보도록 해요. ☺️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="col-sm-6 col-lg">
+                    <div class="card">
+                        <img src="images/blog4.jpg" alt="블로그 4" class="card-img-top">
+                        <div class="d-grid gap-2 my-2 mx-3">
+                            <a href="#" class="fs-4 btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#outModal">빼뜨기</a>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="outModal" tabindex="-1" aria-labelledby="outModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title text-dark fs-5 fw-bold" id="outModalLabel">빼뜨기</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/basic4.jpg" alt="빼뜨기" class="img-fluid">
+                            <p class="text-muted">빼뜨기는 주로 원형의 모양으로 편물을 쌓아 올리면서 한 줄을 마무리 하는 과정에 사용되는 기법이랍니다.
+                                사슬 뜨기와 비슷하게 편물에 바늘을 넣고 실을 걸어 빼기만 하면 되기때문에 아주 쉽게 따라할 수 있어요. 그림을 보고 천천히 연습해보도록 해요. ☺️
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+        </section>
+
+        <footer class="fw-6 knewave-regular">
+            <div class="container text-center text-muted">
+                <p class="py-4 mb-0">Copyright <i class="bi bi-c-circle"></i> 2024 Designed by Moon Seungmi
+                  <a class="btn btn-dark mx-3" href="#" role="button">▲</a></p>
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+      crossorigin="anonymous"></script>
+    </body>
+</html>
